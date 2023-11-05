@@ -26,13 +26,13 @@ const Navbar = () => {
  
   </li>
   <li>
-  <a href="/About" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  hoveranimation  md:p-0 " aria-current="page">About</a>
+  <Link to="/About" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  hoveranimation  md:p-0 " aria-current="page">About</Link>
   </li>
   <li>
-  <a href="/Blog" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  hoveranimation  md:p-0 " aria-current="page">Blog</a>
+  <Link to="/Blog" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  hoveranimation  md:p-0 " aria-current="page">Blog</Link>
   </li>
   <li>
-  <a href="/Contact" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  hoveranimation  md:p-0 " aria-current="page">Contact</a>
+  <Link to="/Contact" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  hoveranimation  md:p-0 " aria-current="page">Contact</Link>
   </li>
 </ul>
 
