@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import womenweb from "../assets/womenweb.svg";
 import { motion } from "framer-motion";
-import Featurescard from "../components/featurescard";
+import Featurescard from "../components/Featurescard"
 import { Link } from "react-router-dom";
 
 const Home = () => {
